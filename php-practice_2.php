@@ -30,7 +30,7 @@
     global $personalInfos;
 
     if (isset($personalInfos[$index])) {
-    return $personalInfos[$index];
+      return $personalInfos[$index];
     } else {
       return null;
     }
